@@ -31,3 +31,6 @@ $ yarn create slate-theme replayful/rplyfl-shopify-theme-boilerplate
 For more information on connecting your new project with a Shopify store, see the [Slate docs](https://github.com/Shopify/slate/wiki/3.-Connect-to-your-store).
 
 
+## To develop the theme
+First set the .env variables from the store API info.
+$ yarn start
