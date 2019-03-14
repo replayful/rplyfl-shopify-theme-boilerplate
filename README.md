@@ -32,5 +32,12 @@ For more information on connecting your new project with a Shopify store, see th
 
 
 ## To develop the theme
+install mkcert and follow instructions here:
+https://github.com/Shopify/slate/wiki/4.-Create-a-self-signed-SSL-certificate
+$ brew install mkcert
+$ mkcert -install
+then run to generate the cert if your ip changed
+$ ssl-check
+
 First set the .env variables from the store API info.
 $ yarn start
