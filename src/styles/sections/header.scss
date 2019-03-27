@@ -1,8 +1,16 @@
 
+
+$header-bg-color: #dfdfdf;
+
 .announcement_bar {
   padding: $base-spacing;
   background-color: $color-accent;
   a {
     color: $color-body-text;
   }
+}
+
+.head {
+  padding: $base-spacing;
+  background-color: $header-bg-color;
 }
